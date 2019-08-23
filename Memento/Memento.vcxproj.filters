@@ -13,17 +13,44 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Memento">
+      <UniqueIdentifier>{004f0d1c-c507-4593-aec8-f1b0f3b11381}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PosMemento.h">
+      <Filter>Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="SizeMemento.h">
+      <Filter>Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="MementoSaver.h">
+      <Filter>Memento</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Memento.cpp">
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SizeMemento.cpp">
+      <Filter>Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="PosMemento.cpp">
+      <Filter>Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="MementoSaver.cpp">
+      <Filter>Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
